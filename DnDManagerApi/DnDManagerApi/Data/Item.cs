@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DnDManagerApi.Data
 {
-    public class Item
+    public class Item : Tagable
     {
         public string Name { get; set; }
         public string Description { get; set; }

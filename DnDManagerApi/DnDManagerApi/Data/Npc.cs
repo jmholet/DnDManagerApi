@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DnDManagerApi.Data
 {
-    public class Npc
+    public class Npc : Character
     {
     }
 }

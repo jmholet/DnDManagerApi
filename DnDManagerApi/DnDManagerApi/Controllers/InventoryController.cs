@@ -14,7 +14,7 @@ namespace DnDManagerApi.Controllers
         [HttpGet]
         public IEnumerable<Item> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new List<Item> { new Item { Name = "Long Sword", Tags = new List<string> { "Weapon" } }, new Item { Name = "Bag of Holding", Description = "Bottomless bag" } };
         }
 
         // GET api/values/5
