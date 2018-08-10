@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DnDManagerApi.Data
+namespace DnDManagerApi.Models
 {
-    public class Tagable
+    public class Npc : Character
     {
-        public List<string> Tags { get; set; }
     }
 }
