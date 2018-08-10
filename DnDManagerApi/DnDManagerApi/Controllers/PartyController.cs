@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using DnDManagerApi.Data;
+using DnDManagerApi.Models;
 
 namespace DnDManagerApi.Controllers
 {
@@ -12,7 +12,7 @@ namespace DnDManagerApi.Controllers
         [HttpGet]
         public Party Get()
         {
-
+            return new Party();
         }
     }
 }
