@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DnDManagerApi.Models
 {
-    public class Location
+    public class Location : IFile
     {
         public string Name { get; set; }
         public string Type { get; set; }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DnDManagerApi.Models
 {
-    public class Party
+    public class Party : IFile
     {
         public List<Player> Players { get; set; }
         public List<Npc> KnownNpcs { get; set; }

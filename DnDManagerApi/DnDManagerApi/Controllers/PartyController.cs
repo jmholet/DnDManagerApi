@@ -7,6 +7,7 @@ using DnDManagerApi.Models;
 
 namespace DnDManagerApi.Controllers
 {
+    [Route("api/[controller]")]
     public class PartyController : ControllerBase
     {
         [HttpGet]

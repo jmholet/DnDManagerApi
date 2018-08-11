@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DnDManagerApi.Models
 {
-    public class Player : Character
+    public class Player : Character, IFile
     {
     }
 }
